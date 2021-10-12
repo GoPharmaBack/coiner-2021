@@ -1,4 +1,4 @@
-import logo from './img/logo.png';
+import logo from './img/CONGRESO.png';
 import LogoCoiner from './img/COINER.png'
 import './scss/index.scss'
 
@@ -6,12 +6,16 @@ function App() {
   return (
     <div className="App">
       <section className="App-contenedor">
-        <img src={logo} className="App-logo" alt="logo" />
+       <div className="contenedor-imagen-izquierda">
+       <img src={logo} className="App-logo left" alt="logo" />
+       </div>
         
-      <h1>Reserva la Fecha</h1>
-      <h2>25,26 y 27 de noviembre</h2>
+      <div className="contenedor-texto"><h1>Reserva la Fecha</h1>
+      <h2>25,26 y 27 de noviembre</h2></div>
           
-      <img src={LogoCoiner} className="App-logo" alt="logo" />
+     <div className="contenedor-imagen-derecha">
+     <img src={LogoCoiner} className="App-logo right" alt="logo" />
+     </div>
       </section>
     </div>
   );
