@@ -42,7 +42,11 @@ h5 {font-size: 1.25rem;}
 
 small, .text_small {font-size: 0.8rem;}
 .App{
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url("../img/bg-coiner-desktop.png");
   background-color: #e3edf5;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
