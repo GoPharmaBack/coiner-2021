@@ -17,6 +17,10 @@ function App() {
      <img src={LogoCoiner} className="App-logo right" alt="logo" />
      </div>
       </section>
+
+      <section className="comite">
+        
+      </section>
     </div>
   );
 }

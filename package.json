@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.15.4",
+    "@babel/core": "^7.15.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.1.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "sass": "^1.42.1",
@@ -39,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.15.4",
     "@babel/preset-env": "^7.15.8"
   }
 }
