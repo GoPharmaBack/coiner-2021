@@ -6,7 +6,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,700');
 
 html {
   font-size: 100%;
@@ -15,15 +15,21 @@ html {
 /*16px*/
 
 body {
-  background: white;
+  background: rgb(0, 146, 191);
+  background: -moz-linear-gradient(25deg, #0092bf0c 0%, hsl(205, 55%, 90%) 100%);
+  background: -webkit-linear-gradient(25deg, rgba(0, 146, 191, 0.158) 0%, rgba(214, 231, 243, 1) 100%);
+  background: linear-gradient(25deg, rgba(0, 146, 191, 0.116) 0%, rgba(214, 231, 243, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0092bf", endColorstr="#d6e7f3", GradientType=1);
+
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.75;
-  color: #000000;
+  color: rgb(0, 72, 94);
 }
 
 p {
-  margin-bottom: 1rem;
+  margin: 0 !important;
+  color: rgb(255, 255, 255);
 }
 
 h1,
@@ -46,7 +52,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.441rem;
+  font-size: 1.3rem;
+  color: #3db6c3;
 }
 
 h3 {
@@ -55,6 +62,7 @@ h3 {
 
 h4 {
   font-size: 1.563rem;
+  color: #30607a;
 }
 
 h5 {
@@ -68,7 +76,7 @@ small,
 
 .App {
 
-  background-color: #e3edf5;
+
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -80,7 +88,7 @@ small,
 
   .App-contenedor {
     background-size: cover;
-    background-attachment:scroll;
+    background-attachment: scroll;
     background-position: center center;
     background-image: url("../img/bg-coiner-desktop.png");
     min-height: 100vh;
@@ -89,16 +97,18 @@ small,
     display: flex;
     position: relative;
     justify-content: space-evenly;
- align-items: center;
-    .contenedor{
+    align-items: center;
+    z-index: 0;
+
+    .contenedor {
       min-height: 90vh;
-    flex-flow: column;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 1rem;
-    max-width: 1080px;
-    display: flex;
-    justify-content: space-between;
+      flex-flow: column;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 1rem;
+      max-width: 1080px;
+      display: flex;
+      justify-content: space-between;
     }
 
 
@@ -139,9 +149,105 @@ small,
   }
 
 
-  .comite {
+  .comite-contenedor {
     min-height: 100vh;
     height: auto;
+    padding-top: 7rem;
+
+    .comite {
+      margin: auto;
+      min-height: 100vh;
+      height: auto;
+      display: flex;
+      flex-flow: wrap;
+      height: auto;
+      width: 90%;
+      max-width: 1080px;
+      justify-content: space-around;
+
+      &-el {
+        width: 280px;
+        height: 280px;
+        border-radius: 15px;
+        padding: 1.5rem;
+        background: white;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        transition: 0.4s ease-out;
+        box-shadow: 0px 7px 10px #01729444;
+
+        @include phone {
+          margin-bottom: 1.2rem;
+        }
+
+        &:hover {
+          transform: translateY(10px);
+          cursor: pointer;
+
+          &:before {
+            opacity: 1;
+          }
+
+          .info {
+            opacity: 1;
+            transform: translateY(0px);
+            text-shadow: 2px 2px 3px rgba(7, 45, 66, 0.356);
+
+            .nombre-ponente {
+              color: #51ffe0;
+
+            }
+          }
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+          background: #0172946e;
+          z-index: 2;
+          transition: 0.5s;
+          opacity: 0;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-radius: 15px;
+        }
+
+        .info {
+          position: relative;
+          z-index: 3;
+          color: white;
+          opacity: 0;
+          transform: translateY(30px);
+          transition: 0.5s;
+
+          h1 {
+            margin: 0px;
+          }
+
+          p {
+            letter-spacing: 1px;
+            font-size: 15px;
+
+          }
+
+
+        }
+      }
+    }
   }
 
 
@@ -151,23 +257,67 @@ small,
 .contenedor-modal {
   align-items: center;
   justify-content: center;
-@include phone{
-  display: flex;
-  flex-flow: column;
+  background-color: white;
+
+  @include tablet {
+    display: flex;
+    flex-flow: column !important;
+  }
+.imagen-modal{
+  border-radius: 120px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin:1rem;
 }
   .texto {
-    .nombre{
+    .nombre {
       font-size: 1.2rem;
       font-weight: bold;
-      color:#fed100
+      color: #3db6c3;
     }
-   p{
-      font-size:1rem;
+
+    p {
+      font-size: 1rem;
     }
+
     padding: 1rem;
   }
 
   img {
     max-width: 240px;
   }
+}
+
+
+#tsparticles {
+  width: 100%;
+  pointer-events: initial;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  height: 100vh;
+  left: 0;
+}
+
+.trayectoria {
+  color: #30607a;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #e3edf5;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: .3rem;
+  outline: 0;
+  max-width: 690px;
+}
+
+.boton-cerrar {
+  position: absolute;
+  right: 7px;
+  top: 7px;
 }

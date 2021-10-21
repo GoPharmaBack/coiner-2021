@@ -2,12 +2,33 @@ import logo from "./img/CONGRESO.png";
 import LogoCoiner from "./img/COINER.png";
 import ListaComite from "./components/ListaComite";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Particles from "react-particles-js";
 import "./scss/index.scss";
 
 function App() {
   return (
     <div className="App">
+      <Particles
+        params={{
+          particles: {
+            number: {
+              value: 60,
+            },
+            size: {
+              value: 3,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
+        }}
+      />
+
       <section className="App-contenedor">
         <div className="contenedor">
           <div className="contenedor-imagen-izquierda">
@@ -25,7 +46,10 @@ function App() {
         </div>
       </section>
 
-      <section className="comite">
+      <section className="comite-contenedor">
+        <h4>Nuestro</h4>
+        <h2>COMITÉ CIENTÍFICO</h2>
+        <br />
         <ListaComite />
       </section>
     </div>

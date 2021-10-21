@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-
+const ImgPonente =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/1_DraAraceli_Arellano.png?alt=media&token=f217f341-50b7-4e97-9525-42150bf2ef83";
 function Comite() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
@@ -14,12 +15,14 @@ function Comite() {
       >
         <Modal.Body>
           <div className="contenedor-modal d-flex">
-            <img src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/1_DraAraceli_Arellano.png?alt=media&token=f217f341-50b7-4e97-9525-42150bf2ef83" alt="imagen-comite a" />
+            <Button className="boton-cerrar" onClick={props.onHide}>
+              x
+            </Button>
+            <img src={ImgPonente} className="imagen-modal" alt="imagen-comite a" />
             <div className="texto">
               <p className="nombre">Dra. Araceli Arellano </p>
               <p className="titulo-ponente">Reumatología Pediátrica</p>
-
-              <p>
+              <p className="trayectoria">
                 Médico adscrito al servicio de Reumatología Pediátrica, de la
                 UMAE Hospital de Pediatría del CMNO. Médico tratante de
                 pacientes lisosomales y con enfermedades metabólicas de baja
@@ -29,25 +32,21 @@ function Comite() {
             </div>
           </div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer>
       </Modal>
     );
   }
   return (
     <>
       {" "}
-      <div className="ponente" onClick={() => setModalShow(true)}>
-        <div className="texto">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/1_DraAraceli_Arellano.png?alt=media&token=f217f341-50b7-4e97-9525-42150bf2ef83"
-            alt="comite"
-          />
-          <p>Dra. Araceli Arellano </p>
+      <div className="comite-el" onClick={() => setModalShow(true)}>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/1_DraAraceli_Arellano.png?alt=media&token=f217f341-50b7-4e97-9525-42150bf2ef83"
+          alt="comite"
+        />
+        <div className="info">
+          <h2 className="nombre-ponente">Dra. Araceli Arellano </h2>
           <p className="titulo-ponente">Reumatología Pediátrica</p>
         </div>
-        <div className="imagen"></div>
       </div>
       <MyVerticallyCenteredModal
         show={modalShow}

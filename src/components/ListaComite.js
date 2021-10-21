@@ -1,11 +1,16 @@
-import React from 'react'
-import ComiteA from './comite/ComiteA'
+import React from "react";
+import ComiteA from "./comite/ComiteA";
 function ListaComite() {
   return (
-    <div>
-      <ComiteA/>
+    <div className="comite">
+      <ComiteA />
+      <ComiteA />
+      <ComiteA />
+      <ComiteA />
+      <ComiteA />
+      <ComiteA />
     </div>
-  )
+  );
 }
 
-export default ListaComite
+export default ListaComite;
