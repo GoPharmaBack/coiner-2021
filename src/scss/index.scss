@@ -1,4 +1,5 @@
 @import "libs/mixins";
+
 * {
   margin: 0;
   padding: 0;
@@ -79,7 +80,8 @@ small,
   text-align: center;
 
   .App-contenedor {
-    height: 98vh;
+    min-height: 98vh;
+    height: auto !important;
     max-width: 1080px;
     display: flex;
     position: relative;
@@ -88,13 +90,14 @@ small,
     flex-flow: column;
     width: 100%;
     box-sizing: border-box;
-    padding:1rem;
+    padding: 1rem;
 
 
     .contenedor-imagen-izquierda {
       display: flex;
       justify-content: flex-end;
-      @include tablet{
+
+      @include tablet {
         justify-content: center;
       }
     }
@@ -102,17 +105,18 @@ small,
     .contenedor-imagen-derecha {
       display: flex;
       justify-content: flex-start;
- top:10px;
- @include tablet{
-  justify-content: center;
-}
+      top: 10px;
+
+      @include tablet {
+        justify-content: center;
+      }
     }
 
     .App-logo {
       max-width: 300px;
- 
       position: relative;
-      @include tablet{
+
+      @include tablet {
         max-width: 250px;
         justify-content: center;
       }
@@ -124,6 +128,3 @@ small,
     }
   }
 }
-
-
-
