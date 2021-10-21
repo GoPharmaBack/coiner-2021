@@ -52,6 +52,11 @@ function App() {
         <br />
         <ListaComite />
       </section>
+      <div className="footer">
+      <small>
+        Copyright © 2021<i> CONGRESO COINER 2021, All right reserved</i>.
+      </small>
+      </div>
     </div>
   );
 }
