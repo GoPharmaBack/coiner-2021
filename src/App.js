@@ -47,7 +47,7 @@ function App() {
       </section>
 
       <section className="comite-contenedor">
-        <h4>Nuestro</h4>
+        <h4>Conoce a nuestro </h4>
         <h2>COMITÉ CIENTÍFICO</h2>
         <br />
         <ListaComite />

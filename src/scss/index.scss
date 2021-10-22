@@ -1,5 +1,6 @@
 @import "libs/mixins";
-
+$app-1:#30607a;
+$app-2:#0092bf;
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +49,7 @@ h1 {
   font-weight: bold;
   margin-top: 0;
   font-size: 3.052rem;
-  color: #30607a;
+  color: $app-1;
 }
 
 h2 {
@@ -62,7 +63,7 @@ h3 {
 
 h4 {
   font-size: 1.563rem;
-  color: #30607a;
+  color: $app-1;
 }
 
 h5 {
@@ -170,12 +171,20 @@ small,
         height: 280px;
         border-radius: 15px;
         padding: 1.5rem;
-        background: white;
+       
         position: relative;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
+        justify-content: flex-end;
         transition: 0.4s ease-out;
         box-shadow: 0px 7px 10px #01729444;
+        flex-flow: column;
+        position: relative;
+        .nombre-card{
+          opacity: 0;
+          position: absolute;
+          bottom:0;
+        }
 
         @include phone {
           margin-bottom: 1.2rem;
@@ -198,6 +207,10 @@ small,
               color: #51ffe0;
 
             }
+          }
+
+          .nombre-card{
+            opacity: 0
           }
         }
 
@@ -257,7 +270,7 @@ small,
 .contenedor-modal {
   align-items: center;
   justify-content: center;
-  background-color: white;
+  
 
   @include tablet {
     display: flex;
@@ -274,7 +287,11 @@ small,
       font-weight: bold;
       color: #3db6c3;
     }
-
+    .titulo-ponente {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #045963;
+    }
     p {
       font-size: 1rem;
     }
@@ -299,7 +316,7 @@ small,
 }
 
 .trayectoria {
-  color: #30607a;
+  color: $app-1;
 }
 
 .modal-content {
@@ -317,6 +334,7 @@ small,
 }
 
 .boton-cerrar {
+ background-color: $app-2 !important;
   position: absolute;
   right: 7px;
   top: 7px;

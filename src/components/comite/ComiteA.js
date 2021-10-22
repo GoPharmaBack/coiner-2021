@@ -47,7 +47,15 @@ function Comite() {
           <h2 className="nombre-ponente">Dra. Araceli Arellano </h2>
           <p className="titulo-ponente">Reumatología Pediátrica</p>
         </div>
+
+        <div className="nombre-card">
+          <h2 className="nombre-ponente">Dra. Araceli Arellano </h2>
+          <p className="titulo-ponente">Reumatología Pediátrica</p>
+        </div>
+
+        
       </div>
+     
       <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
