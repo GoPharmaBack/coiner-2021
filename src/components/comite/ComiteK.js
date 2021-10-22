@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 const ImgPonente =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/11_DraCristina_Sesman.png?alt=media&token=a1476139-05e7-48e8-ab97-94f6ec9e2540";
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/11_DraCristina_Sesman.png?alt=media&token=68ddab04-7168-44ce-97b7-1afd3e49e598";
 function Comite() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
@@ -44,7 +44,7 @@ Se encuentra cursando los diplomados de Derecho Sanitario por la Universidad An√
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/11_DraCristina_Sesman.png?alt=media&token=a1476139-05e7-48e8-ab97-94f6ec9e2540"
+          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/11_DraCristina_Sesman.png?alt=media&token=68ddab04-7168-44ce-97b7-1afd3e49e598"
           alt="comite"
         />
         <div className="info">
