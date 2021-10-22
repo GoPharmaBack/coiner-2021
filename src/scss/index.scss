@@ -285,7 +285,7 @@ small,
 .contenedor-modal {
   align-items: center;
   justify-content: center;
-
+  flex-flow: column;
 
   @include tablet {
     display: flex;
@@ -359,4 +359,13 @@ small,
   position: absolute;
   right: 7px;
   top: 7px;
+}
+
+footer{
+  padding: 3rem;
+  box-sizing: border-box;
+  small{
+   letter-spacing:0.3px;
+    
+  }
 }

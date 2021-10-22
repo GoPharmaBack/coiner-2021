@@ -11,11 +11,14 @@ function App() {
       <Particles
         params={{
           particles: {
+            color: {
+              value: "#fff",
+            },
             number: {
-              value: 60,
+              value: 70,
             },
             size: {
-              value: 3,
+              value: 3.6,
             },
           },
           interactivity: {
@@ -52,6 +55,12 @@ function App() {
         <br />
         <ListaComite />
       </section>
+
+      <footer>
+        <small>
+          Copyright © 2021 <i>CONGRESO COINER,</i> All rights reserved.
+        </small>
+      </footer>
     </div>
   );
 }
