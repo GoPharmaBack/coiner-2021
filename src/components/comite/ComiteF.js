@@ -58,7 +58,7 @@ function Comite() {
         />
         <div className="info">
           <h2 className="nombre-ponente">Dr. Ronny Kershenovich </h2>
-          <p className="titulo-ponente">Nefrologia Pediátrica </p>
+          <p className="titulo-ponente">Genética Médica  </p>
         </div>
 
         <div className="nombre-card">
