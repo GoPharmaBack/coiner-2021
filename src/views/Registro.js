@@ -1,6 +1,7 @@
 import React from "react";
 
 function registro() {
+  
   return (
     <section className="registro">
       <div className="contenedor contenedor-form">
@@ -29,12 +30,16 @@ function registro() {
             >
               <div id="mc_embed_signup_scroll">
                 <div className="contenedor-titulo-form">
-                  <h1>Registro</h1>
-                  <h2>25,26 y 27 de noviembre</h2>
+               
+                <h1>Registro</h1>
+                <h1 className="h3">COINER<sup>®</sup> 2021,<br/></h1>
+                  <h3 className="h2">Reserva la Fecha</h3>
+                  
+                  <h2>
+                   NOV 25, 26 y 27 de noviembre</h2>
+                   <div className="campos-req"><span className="asterisk">*</span> Campos requeridos</div>
                 </div>
-                <div className="indicates-required">
-                  <span className="asterisk">*</span> Campos requeridos
-                </div>
+               
                 <div className="mc-field-group">
                   <label htmlFor="mce-FNAME">
                     Nombre <span className="asterisk">*</span>

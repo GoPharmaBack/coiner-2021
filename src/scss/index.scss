@@ -425,8 +425,19 @@ footer {
 
 
 #mc_embed_signup {
-  width: 360px;
+  display: flex;
+ flex-flow: wrap;
   box-shadow: #30607a59 0px 5px 15px;
+}
+
+#mc_embed_signup_scroll{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "titulo titulo";
+  @include phone{
+    grid-template-columns: 1fr;
+    grid-template-areas: "titulo"
+  }
 }
 
 .flex {
@@ -440,6 +451,7 @@ input[type=checkbox] {
 }
 
 .contenedor-titulo-form {
+  grid-area: titulo;
   text-align: center;
 }
 
@@ -483,5 +495,16 @@ input[type=checkbox] {
 
   &:hover {
     background-color: $app-2;
+  }
+}
+
+.campos-req{
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  display: block;
+  @include phone{
+    position: relative;
+    margin-bottom: 1rem;
   }
 }
