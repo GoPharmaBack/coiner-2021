@@ -2,6 +2,7 @@
   "name": "coiner-2021",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@babel/core": "^7.15.8",
     "@testing-library/jest-dom": "^5.14.1",
