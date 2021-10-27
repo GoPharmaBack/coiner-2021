@@ -391,7 +391,7 @@ footer {
   }
 }
 
-.registro {
+.registro,.gracias {
   background-size: cover;
   background-attachment: scroll;
   background-position: center center;
@@ -404,6 +404,9 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   z-index: 0;
+  p{
+    color:$app-1;
+  }
 }
 
 .contenedor-form {
@@ -430,4 +433,40 @@ footer {
 
 input[type=radio],input[type=checkbox]{
   margin-right: 0.5rem;
+}
+
+.contenedor-titulo-form{
+  text-align: center;
+}
+
+.datefield,.ocupacion{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  
+}
+
+#mc_embed_signup .button {
+  clear: both;
+  background-color: $app-1 !important;
+  border: 0 none;
+  border-radius: 4px;
+  transition: all 0.23s ease-in-out 0s;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 5px 10px 0;
+  padding: 0 22px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: auto;
+  &:hover{
+  background-color:$app-2;
+  }
 }

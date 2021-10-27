@@ -19,7 +19,6 @@ function ListaComite() {
       <ComiteD />
       <ComiteE />
       <ComiteF />
-
       <ComiteG />
       <ComiteH />
       <ComiteI />

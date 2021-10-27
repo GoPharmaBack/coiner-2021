@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../img/CONGRESO.png";
 import LogoCoiner from "../img/COINER.png";
 import ListaComite from "../components/ListaComite";
+
 function home() {
   return (
     <>
@@ -14,6 +16,7 @@ function home() {
           <div className="contenedor-texto">
             <h1>Reserva la Fecha</h1>
             <h2>25,26 y 27 de noviembre</h2>
+            <Link to="/registro"> <button className="btn btn-primary"> REGISTRO</button></Link>
           </div>
 
           <div className="contenedor-imagen-derecha">
@@ -27,9 +30,9 @@ function home() {
         <h2>COMITÉ CIENTÍFICO</h2>
         <br />
         <ListaComite />
-      </section> 
+      </section>
     </>
-  )
+  );
 }
 
-export default home
+export default home;
