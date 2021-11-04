@@ -1,7 +1,6 @@
 import React from "react";
 
 function registro() {
-  
   return (
     <section className="registro">
       <div className="contenedor contenedor-form">
@@ -30,16 +29,18 @@ function registro() {
             >
               <div id="mc_embed_signup_scroll">
                 <div className="contenedor-titulo-form">
-               
-                <h1>Registro</h1>
-                <h1 className="h3">COINER<sup>®</sup> 2021,<br/></h1>
+                  <h1>Registro</h1>
+                  <h1 className="h3">
+                    COINER<sup>®</sup> 2021,
+                    <br />
+                  </h1>
                   <h3 className="h2">Reserva la Fecha</h3>
-                  
-                  <h2>
-                   NOV 25, 26 y 27 de noviembre</h2>
-                   <div className="campos-req"><span className="asterisk">*</span> Campos requeridos</div>
+
+                  <h2>NOV 25, 26 y 27 de noviembre</h2>
+                  <div className="campos-req">
+                    <span className="asterisk">*</span> Campos requeridos
+                  </div>
                 </div>
-               
                 <div className="mc-field-group">
                   <label htmlFor="mce-FNAME">
                     Nombre <span className="asterisk">*</span>
@@ -208,12 +209,21 @@ function registro() {
                   <label htmlFor="mce-CED">
                     Cédula profesional <span className="asterisk">*</span>
                   </label>
+
                   <input
                     type="text"
                     name="CED"
                     className="required"
                     id="mce-CED"
                   />
+
+                  <div class="field-help">
+                    <i>
+                      {" "}
+                      Escribir 0000 en caso de ser estudiante y no contar con
+                      cédula
+                    </i>
+                  </div>
                 </div>
                 <div className="mc-field-group">
                   <label htmlFor="mce-ESPEC">

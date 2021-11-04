@@ -17,7 +17,10 @@ function home() {
             <h1>Reserva la Fecha</h1>
             <h2>25,26 y 27 de noviembre</h2>
             <br />
-            <Link to="/registro"> <button className="btn btn-primary"> REGISTRO</button></Link>
+            <Link to="/registro">
+              {" "}
+              <button className="btn btn-primary"> REGISTRO</button>
+            </Link>
           </div>
 
           <div className="contenedor-imagen-derecha">
@@ -25,7 +28,14 @@ function home() {
           </div>
         </div>
       </section>
-
+      <section className="comite-contenedor">
+        <h2>¿Qué es COINER? ​</h2>
+        <h3>
+          Es una organización en la que convergen <br />
+          asociaciones y grupos de pacientes
+          <br /> con padecimientos de baja prevalencia.​
+        </h3>
+      </section>
       <section className="comite-contenedor">
         <h4>Conoce a nuestro </h4>
         <h2>COMITÉ CIENTÍFICO</h2>

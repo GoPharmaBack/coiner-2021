@@ -55,7 +55,7 @@ function Comite() {
 
         <div className="nombre-card">
           <h2 className="nombre-ponente">Dr. Jesús Navarro </h2>
-          <p className="titulo-ponente">Nefrologia Pediátrica </p>
+          <p className="titulo-ponente">Nefrología Pediátrica </p>
         </div>
       </div>
       <MyVerticallyCenteredModal

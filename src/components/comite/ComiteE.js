@@ -25,7 +25,7 @@ function Comite() {
             />
             <div className="texto">
               <p className="nombre">Dra. Norma Guerra</p>
-              <p className="titulo-ponente">Nefrologia Pediátrica </p>
+              <p className="titulo-ponente">Nefrología Pediátrica </p>
               <p className="trayectoria">
                 Médico adscrito al servicio de Nefrología Pediátrica en Centro
                 Médico Nacional “La Raza.” Miembro de la Mesa directiva del
@@ -48,12 +48,12 @@ function Comite() {
         />
         <div className="info">
           <h2 className="nombre-ponente">Dra. Norma Guerra</h2>
-          <p className="titulo-ponente">Nefrologia Pediátrica </p>
+          <p className="titulo-ponente">Nefrología Pediátrica </p>
         </div>
 
         <div className="nombre-card">
           <h2 className="nombre-ponente">Dra. Norma Guerra</h2>
-          <p className="titulo-ponente">Nefrologia Pediátrica </p>
+          <p className="titulo-ponente">Nefrología Pediátrica </p>
         </div>
       </div>
       <MyVerticallyCenteredModal

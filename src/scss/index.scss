@@ -143,12 +143,13 @@ small,
 
       @include tablet {
         max-width: 350px;
-        max-height:180px;
+        max-height: 180px;
         justify-content: center;
       }
+
       @include tablet {
         max-width: 280px;
-        max-height:150px;
+        max-height: 150px;
         justify-content: center;
       }
     }
@@ -507,7 +508,7 @@ input[type=checkbox] {
 }
 
 small {
-  color: #cce1ef !important;
+  color: #0d2d42 !important;
 }
 
 .campos-req {
@@ -520,4 +521,9 @@ small {
     position: relative;
     margin-bottom: 1rem;
   }
+}
+
+.field-help {
+  margin-top: 0.1rem;
+  font-size: 11px;
 }
