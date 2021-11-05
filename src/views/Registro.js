@@ -206,9 +206,7 @@ function registro() {
                   </ul>
                 </div>
                 <div className="mc-field-group">
-                  <label htmlFor="mce-CED">
-                    Cédula profesional <span className="asterisk">*</span>
-                  </label>
+                  <label htmlFor="mce-CED">Cédula profesional</label>
 
                   <input
                     type="text"
@@ -220,8 +218,7 @@ function registro() {
                   <div class="field-help">
                     <i>
                       {" "}
-                      Escribir 0000 en caso de ser estudiante y no contar con
-                      cédula
+                      En caso de ser estudiante dejar este espacio en blanco
                     </i>
                   </div>
                 </div>
