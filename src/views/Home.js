@@ -4,6 +4,13 @@ import logo from "../img/CONGRESO.png";
 import LogoCoiner from "../img/COINER.png";
 import ListaComite from "../components/ListaComite";
 import Patrocinadores from "../components/Patrocinadores";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
 function home() {
   return (
     <>
@@ -43,6 +50,26 @@ function home() {
         <ListaComite />
         <Patrocinadores />
       </section>
+      <footer>
+        <h4>Siguenos en nuestras redes sociales</h4>
+        <div className="redes">
+          <a href="https://web.facebook.com/CoinerMexico">
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="https://instagram.com/coinermx?utm_medium=copy_link">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/70538539/admin/
+"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </div>
+        <br />
+        <h4>Escríbenos</h4>
+        <a href="mailto:comunicacion@coiner.org">comunicacion@coiner.org</a>
+      </footer>
     </>
   );
 }

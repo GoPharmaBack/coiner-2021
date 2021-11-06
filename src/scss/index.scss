@@ -559,3 +559,30 @@ small {
 
   }
 }
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $app-1;
+    font-size: 1.8rem;
+
+  }
+
+  .redes {
+    padding: 1rem;
+    color: $app-1;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+}
