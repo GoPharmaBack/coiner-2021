@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../img/CONGRESO.png";
 import LogoCoiner from "../img/COINER.png";
 import ListaComite from "../components/ListaComite";
-
+import Patrocinadores from "../components/Patrocinadores";
 function home() {
   return (
     <>
@@ -41,6 +41,7 @@ function home() {
         <h2>COMITÉ CIENTÍFICO</h2>
         <br />
         <ListaComite />
+        <Patrocinadores />
       </section>
     </>
   );

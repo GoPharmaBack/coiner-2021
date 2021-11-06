@@ -164,7 +164,7 @@ small,
   .comite-contenedor {
 
     height: auto;
-    padding-top: 7rem;
+    padding: 7rem 1rem 1rem 1rem;
 
     .comite {
       margin: auto;
@@ -526,4 +526,36 @@ small {
 .field-help {
   margin-top: 0.1rem;
   font-size: 11px;
+}
+
+.patrocinadores {
+  margin-top: 5rem;
+
+}
+
+.patrocinadores-Contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+
+  justify-self: center;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .patrocinadores-img {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
 }
