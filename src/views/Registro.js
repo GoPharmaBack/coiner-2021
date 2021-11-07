@@ -214,6 +214,12 @@ function registro() {
                     className="required"
                     id="mce-CED"
                   />
+                  <div class="field-help">
+                    <i>
+                      {" "}
+                      En caso de ser estudiante dejar este espacio en blanco
+                    </i>
+                  </div>
                 </div>
                 <div className="mc-field-group">
                   <label htmlFor="mce-ESPEC">
@@ -288,10 +294,6 @@ function registro() {
             </form>
           </div>
         </div>
-      </div>
-
-      <div class="field-help">
-        <i> En caso de ser estudiante dejar este espacio en blanco</i>
       </div>
     </section>
   );
