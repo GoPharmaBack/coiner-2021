@@ -51,7 +51,7 @@ function home() {
         <Patrocinadores />
       </section>
       <footer>
-        <h4>Siguenos en nuestras redes sociales</h4>
+        <h4>Síguenos en nuestras redes sociales</h4>
         <div className="redes">
           <a href="https://web.facebook.com/CoinerMexico">
             <FontAwesomeIcon icon={faFacebook} />
