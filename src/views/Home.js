@@ -22,7 +22,7 @@ function home() {
 
           <div className="contenedor-texto">
             <h1>Reserva la Fecha</h1>
-            <h2>25,26 y 27 de noviembre</h2>
+            <h2>25, 26 y 27 de noviembre</h2>
             <br />
             <Link to="/registro">
               {" "}

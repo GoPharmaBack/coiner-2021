@@ -586,3 +586,52 @@ footer {
 
   }
 }
+
+.contenedor-aviso {
+  padding: 1rem;
+  text-align: left;
+  max-width: 1080px;
+
+  @include phone {
+    font-size: 12px;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    margin-top: 1rem !important;
+    text-align: justify !important;
+    color: $app-1 !important;
+  }
+
+  ol.k {
+    list-style-type: lower-alpha !important;
+  }
+
+  .titulo {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  p.final {
+    text-align: right !important;
+  }
+
+  strong {
+    font-weight: bold !important
+  }
+
+}
+
+a {
+  &:hover {
+    color: $app-2 !important;
+  }
+
+  cursor:pointer;
+
+  color: $app-1 !important;
+}
