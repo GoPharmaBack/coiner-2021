@@ -4,9 +4,11 @@ import Home from "../views/Home";
 import Registro from "../views/Registro";
 import Gracias from "../views/Gracias";
 import Aviso from "../views/Aviso";
+import ScrollToTop from "../components/ScrollToTop";
 function Routes() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route>
           <Route exact path="/" component={Home} />
