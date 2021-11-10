@@ -16,14 +16,14 @@ function Aviso() {
           Personales en Posesión de los Particulares (la “LFPD”) y resto de
           disposiciones aplicables, ORGANIZACIÓN INTERNACIONAL DE ENFERMEDADES
           DE BAJA PREVALENCIA, AC., (en adelante, indistintamente el
-          “Responsable” o “COINER”) es el Responsable de sus datos personales.
+          “Responsable” o “COINER®”) es el Responsable de sus datos personales.
           Nuestro domicilio para oír y recibir notificaciones es en Calle Santa
           Margarita 515, Colonia insurgentes San Borja, Alcaldía Benito Juárez,
           C.P. 03100 CDMX
         </p>
         <p className="titulo">¿Qué datos usamos y podemos solicitar? </p>
         <p>
-          Para cumplir con las finalidades descritas en este aviso, COINER
+          Para cumplir con las finalidades descritas en este aviso, COINER®
           recaba o puede recabar las siguientes categorías de datos personales:{" "}
         </p>
         <ol>
@@ -35,32 +35,32 @@ function Aviso() {
         </ol>
         <p className="titulo">¿Solicitamos datos sensibles? </p>
         <p>
-          COINER no solicita datos personales sensibles para las finalidades
+          COINER® no solicita datos personales sensibles para las finalidades
           enumeradas en el siguiente apartado. Como participante del evento,
           usted debe abstenerse de proporcionar ese tipo de información a
-          COINER.
+          COINER®.
         </p>
         <p className="titulo">
-          Responsabilidad de COINER, de los Participantes del evento y
+          Responsabilidad de COINER®, de los Participantes del evento y
           Prestadores de Servicios.
         </p>
         <p>
-          COINER trata datos personales de los participantes del evento mediante
-          el acceso y manejo de la información que dichos participantes del
-          evento manifiestan en sus registros, participacion, colaboraciones,
-          entre diversos actos relacionados con el evento, a través de los
-          registros, solicitudes, formatos, ligas, vinculos, intercambio de
-          información con otros participantes que han creado en cada una de las
-          redes, ponencias, platicas, investigaciones, entre otros; que utilizan
-          para vincularse con COINER. Este tratamiento también comprende el
-          aprovechamiento de los datos personales para fines de divulgación de
-          actividades de COINER o su grupo de empresas.{" "}
+          COINER® trata datos personales de los participantes del evento
+          mediante el acceso y manejo de la información que dichos participantes
+          del evento manifiestan en sus registros, participacion,
+          colaboraciones, entre diversos actos relacionados con el evento, a
+          través de los registros, solicitudes, formatos, ligas, vinculos,
+          intercambio de información con otros participantes que han creado en
+          cada una de las redes, ponencias, platicas, investigaciones, entre
+          otros; que utilizan para vincularse con COINER®. Este tratamiento
+          también comprende el aprovechamiento de los datos personales para
+          fines de divulgación de actividades de COINER® o su grupo de empresas.{" "}
         </p>
         <p>
-          COINER accede, maneja y aprovecha los datos personales de los
+          COINER® accede, maneja y aprovecha los datos personales de los
           participantes del evento de redes sociales únicamente durante el plazo
           en que los participantes del evento permanecen vinculados a los
-          perfiles que COINER administra en cada uno de sus eventos.{" "}
+          perfiles que COINER® administra en cada uno de sus eventos.{" "}
         </p>
         <p>
           Los participantes del evento son responsables de la exactitud,
@@ -70,7 +70,7 @@ function Aviso() {
           ponencias, platicas, investigaciones, entre otros. Se hace la
           recomendación a todos los participantes del evento de revisar
           continuamente la configuración de privacidad en cada uno de los sitios
-          web que utilizan para vincularse a COINER.
+          web que utilizan para vincularse a COINER®.
         </p>
         <p>
           Los prestadores de servicios del evento son responsables de las bases
@@ -80,16 +80,16 @@ function Aviso() {
           usuarios.{" "}
         </p>
         <p>
-          Conforme a lo anterior, COINER se obliga a proporcionar un adecuado
+          Conforme a lo anterior, COINER® se obliga a proporcionar un adecuado
           acceso, manejo y aprovechamiento de los datos personales de los
-          participantes del evento que se vinculan a los perfiles que COINER
+          participantes del evento que se vinculan a los perfiles que COINER®
           administra en diversas plataformas.{" "}
         </p>
         <p className="titulo">
           Finalidades del tratamiento de datos personales
         </p>
         <p>
-          COINER podrá tratar sus datos personales para las siguientes
+          COINER® podrá tratar sus datos personales para las siguientes
           finalidades:{" "}
         </p>
         <p className="titulo">Finalidades Primarias: </p>
@@ -117,8 +117,8 @@ function Aviso() {
           </li>
           <li>
             Toda aquella actividad vinculada a cumplir el objeto social de
-            COINER y que se encuentren relacionadas con las enfermedades de baja
-            prevalencia.
+            COINER® y que se encuentren relacionadas con las enfermedades de
+            baja prevalencia.
           </li>
         </ol>
         <p className="titulo">Finalidades Secundarias:</p>
@@ -145,7 +145,7 @@ function Aviso() {
             incompletos.{" "}
           </li>
           <li>
-            <strong>Cancelación: </strong>el derecho a que COINER cese el
+            <strong>Cancelación: </strong>el derecho a que COINER® cese el
             tratamiento de sus datos personales, a partir de un bloqueo y su
             posterior supresión.
           </li>
@@ -162,9 +162,9 @@ function Aviso() {
         <ol className="k">
           <li>
             Enviando una solicitud al correo electrónico
-            <a href="mailto:comunicacion@coiner.org">
+            <a href="mailto:comunicacion@COINER®.org">
               {" "}
-              comunicacion@coiner.org
+              comunicacion@COINER®.org
             </a>
             ; o{" "}
           </li>
@@ -184,7 +184,7 @@ function Aviso() {
             Copia de un documento que acredite su identidad y en su caso, la
             representación legal si alguien ejerce el derecho en su nombre.
             Podrá omitir este requisito si aporta información que lo acredite
-            como participante del evento de COINER y lo identifique de forma
+            como participante del evento de COINER® y lo identifique de forma
             indubitable;
           </li>
           <li>
@@ -197,18 +197,18 @@ function Aviso() {
           </li>
         </ol>
         <p>
-          COINER responderá a su solicitud dentro de los 20 (veinte) días
+          COINER® responderá a su solicitud dentro de los 20 (veinte) días
           hábiles siguientes a la fecha en que sea enviada y recibida. Si la
-          solicitud resulta procedente, COINER la hará efectiva dentro de los 15
-          (quince) días hábiles siguientes a la fecha en que comunique la
+          solicitud resulta procedente, COINER® la hará efectiva dentro de los
+          15 (quince) días hábiles siguientes a la fecha en que comunique la
           respuesta. En caso de que de la información y/o documentación
           proporcionados en su solicitud resulten incompletos, erróneos y/o
           insuficientes, o bien, no se acompañen los documentos necesarios para
           acreditar su identidad o la representación legal correspondiente,
-          COINER solicitará la corrección y subsanación de las deficiencias para
-          poder dar trámite a su solicitud. Usted contará con 10 (diez) días
-          hábiles para atender el requerimiento y corrección de la solicitud; en
-          caso contrario ésta se tendrá por no presentada.
+          COINER® solicitará la corrección y subsanación de las deficiencias
+          para poder dar trámite a su solicitud. Usted contará con 10 (diez)
+          días hábiles para atender el requerimiento y corrección de la
+          solicitud; en caso contrario ésta se tendrá por no presentada.
         </p>
         <p>
           El uso de medios electrónicos para el ejercicio de los Derechos ARCO
@@ -218,7 +218,7 @@ function Aviso() {
         </p>
         <p>
           El derecho de cancelación no es absoluto. Por favor tome en cuenta que
-          COINER debe conservar información para cumplir con diversas
+          COINER® debe conservar información para cumplir con diversas
           obligaciones legales y que para hacerlo puede compartir sus datos
           personales con otras entidades u organismos. En tales casos, es
           posible que el derecho de cancelación deba solicitarse ante la entidad
@@ -250,7 +250,7 @@ function Aviso() {
         </p>
         <p>
           Si usted revoca su consentimiento y dicha revocación es procedente,
-          COINER dejará de tratar sus datos personales para las finalidades
+          COINER® dejará de tratar sus datos personales para las finalidades
           indicadas en este Aviso de Privacidad que resulten procedentes o
           expresamente solicitadas. Sin perjuicio de lo anterior, la revocación
           de su consentimiento no podrá tener por objeto garantizado que los
@@ -262,8 +262,11 @@ function Aviso() {
         <p>
           Usted podrá enviar su solicitud de revocación de consentimiento al
           correo electrónico{" "}
-          <a href="mailto:comunicacion@coiner.org"> comunicacion@coiner.org</a>,
-          siguiendo las instrucciones aplicables al ejercicio de los Derechos
+          <a href="mailto:comunicacion@COINER®.org">
+            {" "}
+            comunicacion@COINER®.org
+          </a>
+          , siguiendo las instrucciones aplicables al ejercicio de los Derechos
           ARCO.{" "}
         </p>
         <p>
@@ -274,10 +277,10 @@ function Aviso() {
           señalados para el ejercicio de los derechos ARCO.{" "}
         </p>
         <p>
-          COINER cuenta con medios y procedimientos para asegurar la inclusión
+          COINER® cuenta con medios y procedimientos para asegurar la inclusión
           de algunos de tus datos en listados de exclusión propios, cuando
           solicitas su inclusión en ellos de forma expresa. En tales casos,
-          COINER otorgará a los titulares que soliciten su registro la
+          COINER® otorgará a los titulares que soliciten su registro la
           constancia de inscripción correspondiente
         </p>
         <p className="titulo">Cambios a nuestro Aviso de Privacidad</p>
@@ -288,23 +291,30 @@ function Aviso() {
           Privacidad podrá cambiar para reflejar estas mejoras.
         </p>
         <p>
-          COINER podrá modificar, actualizar, extender o de cualquier otra forma
-          cambiar el contenido y alcance de este Aviso de Privacidad, en
+          COINER® podrá modificar, actualizar, extender o de cualquier otra
+          forma cambiar el contenido y alcance de este Aviso de Privacidad, en
           cualquier momento y bajo nuestra completa discreción. En todo momento,
           podrá solicitar la última versión de este Aviso de Privacidad a
           nuestro Departamento de Datos Personales, a través del correo
           electrónico{" "}
-          <a href="mailto:comunicacion@coiner.org"> comunicacion@coiner.org</a>.
-          Cuando resulte legalmente procedente y contemos con su correo
-          electrónico, COINER podrá comunicar cambios al presente Aviso de
+          <a href="mailto:comunicacion@COINER®.org">
+            {" "}
+            comunicacion@COINER®.org
+          </a>
+          . Cuando resulte legalmente procedente y contemos con su correo
+          electrónico, COINER® podrá comunicar cambios al presente Aviso de
           Privacidad a través de ese medio de comunicación.
         </p>
         <p>
           El Aviso de Privacidad que regule el tratamiento de sus datos
           personales será el que aparezca publicado en nuestra página web e
-          identifique el tipo de relación que usted tiene con COINER. Podrá
+          identifique el tipo de relación que usted tiene con COINER®. Podrá
           acceder a la última versión de este Aviso de Privacidad a través de
-          <a href="mailto:comunicacion@coiner.org"> comunicacion@coiner.org</a>.
+          <a href="mailto:comunicacion@COINER®.org">
+            {" "}
+            comunicacion@COINER®.org
+          </a>
+          .
         </p>
         <p>
           Si ha tenido acceso a este Aviso de Privacidad por medios electrónicos
@@ -318,10 +328,11 @@ function Aviso() {
           En caso de tener dudas o aclaraciones sobre el presente Aviso de
           Privacidad, puede contactar a nuestro Departamento de Datos Personales
           a través del correo electrónico
-          <a href="mailto:comunicacion@coiner.org">
+          <a href="mailto:comunicacion@COINER®.org">
             {" "}
-            comunicacion@coiner.org
-          </a>.{" "}
+            comunicacion@COINER®.org
+          </a>
+          .{" "}
         </p>
         <p className="titulo final">
           Última actualización: 09 de noviembre de 2021{" "}
