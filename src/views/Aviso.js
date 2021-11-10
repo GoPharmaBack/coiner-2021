@@ -165,9 +165,9 @@ function Aviso() {
         <ol className="k">
           <li>
             Enviando una solicitud al correo electrónico
-            <a href="mailto:comunicacion@COINER<sup>®</sup>.org">
+            <a href="mailto: comunicacion@coiner.org">
               {" "}
-              comunicacion@COINER<sup>®</sup>.org
+              comunicacion@coiner.org
             </a>
             ; o{" "}
           </li>
@@ -266,10 +266,7 @@ function Aviso() {
         <p>
           Usted podrá enviar su solicitud de revocación de consentimiento al
           correo electrónico{" "}
-          <a href="mailto:comunicacion@COINER<sup>®</sup>.org">
-            {" "}
-            comunicacion@COINER<sup>®</sup>.org
-          </a>
+          <a href="mailto: comunicacion@coiner.org"> comunicacion@coiner.org</a>
           , siguiendo las instrucciones aplicables al ejercicio de los Derechos
           ARCO.{" "}
         </p>
@@ -301,10 +298,7 @@ function Aviso() {
           En todo momento, podrá solicitar la última versión de este Aviso de
           Privacidad a nuestro Departamento de Datos Personales, a través del
           correo electrónico{" "}
-          <a href="mailto:comunicacion@COINER<sup>®</sup>.org">
-            {" "}
-            comunicacion@COINER<sup>®</sup>.org
-          </a>
+          <a href="mailto: comunicacion@coiner.org"> comunicacion@coiner.org</a>
           . Cuando resulte legalmente procedente y contemos con su correo
           electrónico, COINER<sup>®</sup> podrá comunicar cambios al presente
           Aviso de Privacidad a través de ese medio de comunicación.
@@ -315,10 +309,7 @@ function Aviso() {
           identifique el tipo de relación que usted tiene con COINER<sup>®</sup>
           . Podrá acceder a la última versión de este Aviso de Privacidad a
           través de
-          <a href="mailto:comunicacion@COINER<sup>®</sup>.org">
-            {" "}
-            comunicacion@COINER<sup>®</sup>.org
-          </a>
+          <a href="mailto: comunicacion@coiner.org"> comunicacion@coiner.org</a>
           .
         </p>
         <p>
@@ -333,10 +324,7 @@ function Aviso() {
           En caso de tener dudas o aclaraciones sobre el presente Aviso de
           Privacidad, puede contactar a nuestro Departamento de Datos Personales
           a través del correo electrónico
-          <a href="mailto:comunicacion@COINER<sup>®</sup>.org">
-            {" "}
-            comunicacion@COINER<sup>®</sup>.org
-          </a>
+          <a href="mailto: comunicacion@coiner.org"> comunicacion@coiner.org</a>
           .{" "}
         </p>
         <p className="titulo final">
