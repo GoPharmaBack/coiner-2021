@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function registro() {
   return (
     <section className="registro">
@@ -255,6 +255,9 @@ function registro() {
                       />
                       <label htmlFor="mce-group[380866]-380866-0">Acepto</label>
                     </li>
+                    <Link to="aviso_de_privacidad">
+                      <strong>Leer Aviso de Privacidad </strong>
+                    </Link>
                   </ul>
                 </div>
                 <div id="mce-responses" className="clear">
