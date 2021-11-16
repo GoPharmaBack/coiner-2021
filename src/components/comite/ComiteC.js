@@ -57,12 +57,12 @@ function Comite() {
         />
         <div className="info">
           <h2 className="nombre-ponente">Dra. Magdalena Cerón </h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <p className="titulo-ponente">Pediatría </p>
         </div>
 
         <div className="nombre-card">
           <h2 className="nombre-ponente">Dra. Magdalena Cerón </h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <p className="titulo-ponente">Pediatría </p>
         </div>
       </div>
       <MyVerticallyCenteredModal
