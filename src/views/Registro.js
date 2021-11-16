@@ -5,6 +5,7 @@ function registro() {
     <section className="registro">
       <div className="contenedor contenedor-form">
         <div classname="form">
+          {/* Begin Mailchimp Signup Form */}
           <link
             href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
             rel="stylesheet"
@@ -35,7 +36,6 @@ function registro() {
                     <br />
                   </h1>
                   <h3 className="h2">Reserva la Fecha</h3>
-
                   <h2>NOV 25, 26 y 27 de noviembre</h2>
                   <div className="campos-req">
                     <span className="asterisk">*</span> Campos requeridos
@@ -54,7 +54,7 @@ function registro() {
                 </div>
                 <div className="mc-field-group">
                   <label htmlFor="mce-LNAME">
-                    Apellido <span className="asterisk">*</span>
+                    Apellidos <span className="asterisk">*</span>
                   </label>
                   <input
                     type="text"
@@ -127,42 +127,41 @@ function registro() {
                     id="mce-ZONE"
                   />
                 </div>
-                <div className="mc-field-group size1of2">
+                <div className="mc-field-group row2 ">
                   <label htmlFor="mce-BIRTHDAY-month">
                     Fecha de nacimiento <span className="asterisk">*</span>
                   </label>
-                  <div className="datefield">
-                    <div className="grupo">
-                      <span className="subfield dayfield">
-                        <input
-                          className="birthday required"
-                          type="text"
-                          pattern="[0-9]*"
-                          placeholder="DD"
-                          size={2}
-                          maxLength={2}
-                          name="BIRTHDAY[day]"
-                          id="mce-BIRTHDAY-day"
-                        />
-                      </span>{" "}
-                      /
-                      <span className="subfield monthfield">
-                        <input
-                          className="birthday required"
-                          type="text"
-                          pattern="[0-9]*"
-                          placeholder="MM"
-                          size={2}
-                          maxLength={2}
-                          name="BIRTHDAY[month]"
-                          id="mce-BIRTHDAY-month"
-                        />
-                      </span>
-                    </div>
-                    <span className="small-meta nowrap">( Día/ Mes )</span>
+                  <div className="datefield ">
+                    <span className="subfield dayfield">
+                      <input
+                        className="birthday required"
+                        type="text"
+                        pattern="[0-9]*"
+                        placeholder="DD"
+                        size={2}
+                        maxLength={2}
+                        name="BIRTHDAY[day]"
+                        id="mce-BIRTHDAY-day"
+                      />
+                    </span>{" "}
+                    /
+                    <span className="subfield monthfield">
+                      <input
+                        className="birthday required"
+                        type="text"
+                        pattern="[0-9]*"
+                        placeholder="MM"
+                        size={2}
+                        maxLength={2}
+                        name="BIRTHDAY[month]"
+                        id="mce-BIRTHDAY-month"
+                      />
+                    </span>
+                    <br />
+                    <span className="small-meta nowrap">( dd / mm )</span>
                   </div>
                 </div>
-                <div className="mc-field-group input-group ocupacion">
+                <div className="mc-field-group input-group">
                   <strong>
                     Ocupación <span className="asterisk">*</span>
                   </strong>
@@ -203,23 +202,31 @@ function registro() {
                       />
                       <label htmlFor="mce-JOB-3">Medicina</label>
                     </li>
+                    <li>
+                      <input
+                        type="radio"
+                        defaultValue="Otro"
+                        name="JOB"
+                        id="mce-JOB-4"
+                      />
+                      <label htmlFor="mce-JOB-4">Otro</label>
+                    </li>
                   </ul>
                 </div>
                 <div className="mc-field-group">
-                  <label htmlFor="mce-CED">Cédula profesional</label>
-
+                  <label htmlFor="mce-CED">
+                    En caso de escribir otro, indicar cual{" "}
+                  </label>
+                  <input type="text" name="CED" className id="mce-CED" />
+                </div>
+                <div className="mc-field-group">
+                  <label htmlFor="mce-MMERGE10">Cédula profesional </label>
                   <input
                     type="text"
-                    name="CED"
-                    className="required"
-                    id="mce-CED"
+                    name="MMERGE10"
+                    className
+                    id="mce-MMERGE10"
                   />
-                  <div class="field-help">
-                    <i>
-                      {" "}
-                      En caso de ser estudiante dejar este espacio en blanco
-                    </i>
-                  </div>
                 </div>
                 <div className="mc-field-group">
                   <label htmlFor="mce-ESPEC">
@@ -255,9 +262,11 @@ function registro() {
                       />
                       <label htmlFor="mce-group[380866]-380866-0">Acepto</label>
                     </li>
-                    <Link to="aviso_de_privacidad">
-                      <strong>Leer Aviso de Privacidad </strong>
-                    </Link>
+                    <li>
+                      <Link to="aviso_de_privacidad">
+                        Leer Aviso de Privacidad
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 <div id="mce-responses" className="clear">
@@ -296,6 +305,7 @@ function registro() {
               </div>
             </form>
           </div>
+          {/*End mc_embed_signup*/}
         </div>
       </div>
     </section>
