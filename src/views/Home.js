@@ -10,6 +10,7 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import ListaPonente from "../components/ListaPonente";
 
 function home() {
   return (
@@ -47,7 +48,13 @@ function home() {
         <h4>Conoce a nuestro </h4>
         <h2>COMITÉ CIENTÍFICO</h2>
         <br />
+        <br />
         <ListaComite />
+        <br />
+        <h4>Conoce a nuestros </h4>
+        <h2>PROFESORES</h2>
+        <br />
+        <ListaPonente />
         <Patrocinadores />
       </section>
       <footer>

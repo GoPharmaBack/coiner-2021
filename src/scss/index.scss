@@ -161,12 +161,14 @@ small,
   }
 
 
-  .comite-contenedor {
+  .comite-contenedor,
+  .profesores-contenedor {
 
     height: auto;
     padding: 7rem 1rem 1rem 1rem;
 
-    .comite {
+    .comite,
+    .profesores {
       margin: auto;
       min-height: 100vh;
       height: auto;
@@ -639,4 +641,16 @@ a {
   display: flex;
   align-items: center;
   min-height: 80vh;
+}
+
+.login {
+  min-height: 90vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  .contenedor-login {
+    margin-top: 1rem;
+  }
 }
