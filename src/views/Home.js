@@ -70,7 +70,7 @@ function home() {
           <a href="https://web.facebook.com/CoinerMexico">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="https://instagram.com/coinermx?utm_medium=copy_link">
+          <a href="https://www.instagram.com/coinermx/">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
