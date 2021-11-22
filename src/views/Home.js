@@ -10,6 +10,7 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+//import ListaPonente from "../components/ListaPonente";
 
 function home() {
   return (
@@ -24,10 +25,17 @@ function home() {
             <h1>Reserva la Fecha</h1>
             <h2>25, 26 y 27 de noviembre</h2>
             <br />
-            <Link to="/registro">
-              {" "}
-              <button className="btn btn-primary"> REGISTRO</button>
-            </Link>
+            <div className="contenedor-botones">
+              <Link to="/registro">
+                {" "}
+                <button className="btn btn-primary"> REGISTRO</button>
+              </Link>
+
+              <Link to="/login">
+                {" "}
+                <button className="btn btn-primary"> ENTRAR</button>
+              </Link>
+            </div>
           </div>
 
           <div className="contenedor-imagen-derecha">
@@ -47,7 +55,13 @@ function home() {
         <h4>Conoce a nuestro </h4>
         <h2>COMITÉ CIENTÍFICO</h2>
         <br />
+        <br />
         <ListaComite />
+        <br />
+        {/* <h4>Conoce a nuestros </h4>
+        <h2>PROFESORES</h2>
+        <br />
+        <ListaPonente /> */}
         <Patrocinadores />
       </section>
       <footer>
@@ -70,6 +84,7 @@ function home() {
         <h4>Escríbenos</h4>
         <a href="mailto:comunicacion@coiner.org">comunicacion@coiner.org</a>
       </footer>
+      <a href="aviso_de_privacidad">Leer Aviso de Privacidad</a>
     </>
   );
 }
