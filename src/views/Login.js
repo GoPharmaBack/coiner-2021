@@ -27,7 +27,7 @@ class Login extends Component {
     });
     axios({
       method: "post",
-      url: "https://distribuidores2021.herokuapp.com/api/auth/login",
+      url: "https://coiner-2021.herokuapp.com/api/auth/login",
       headers: {
         "Content-Type": "application/json",
       },
@@ -108,17 +108,18 @@ class Login extends Component {
     return (
       <React.Fragment>
         <section className="login">
-          <h1>Login</h1>
-          <br />
           <img src={Logo} alt="" />
+          <br />
+
           <br />
           <div className="contenedor-login">
             <form
               className="formulario"
               onSubmit={this.inicioSesion.bind(this)}
             >
+              <h2>Login</h2>
               <div className="form-grupo">
-                <label>email</label>
+                <label>Email</label>
                 <input
                   placeholder="user@baxter.com"
                   type="email"
@@ -129,7 +130,7 @@ class Login extends Component {
                 />
               </div>
               <div className="form-grupo">
-                <label> password</label>
+                <label> Password</label>
                 <input
                   placeholder=""
                   type="password"
@@ -140,7 +141,7 @@ class Login extends Component {
                   required
                 />
               </div>
-              <button className="btn-secondary" type="submit">
+              <button className="btn-primary" type="submit">
                 Entrar
               </button>
             </form>

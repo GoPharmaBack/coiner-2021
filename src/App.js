@@ -12,7 +12,7 @@ function App() {
   const descriptionFunc = async () => {
     try {
       const data = await axios
-        .get("https://distribuidores2021.herokuapp.com")
+        .get("https://coiner-2021.herokuapp.com/")
         .then((res) => {
           console.log(res);
           console.log(res.data.description);

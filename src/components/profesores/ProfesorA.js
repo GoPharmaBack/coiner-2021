@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 
-const ImgProfesor = "hola";
+const ImgProfesor =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2F1DraBelmont.jpeg?alt=media&token=9172fb71-8bde-4fad-91dc-59ca70d39393";
 function ProfesorA() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
@@ -24,14 +25,16 @@ function ProfesorA() {
               alt="imagen-comite a"
             />
             <div className="texto">
-              <p className="nombre">Dra. Araceli Arellano </p>
-              <p className="titulo-ponente">Reumatología Pediátrica</p>
+              <p className="nombre">Dra. Leticia Belmont </p>
+              <p className="titulo-ponente">Ciencias Médicas </p>
               <p className="trayectoria">
-                Médico adscrito al servicio de Reumatología Pediátrica, de la
-                UMAE Hospital de Pediatría del CMNO. Médico tratante de
-                pacientes lisosomales y con enfermedades metabólicas de baja
-                prevalencia. Miembro del GEEL. Profesora titular de Reumatología
-                Pediátrica.
+                Es investigadora en Ciencias Médicas en el Laboratorio de
+                Errores Innatos del Metabolismo y Tamiz del Instituto Nacional
+                de pediatría (INP), es Académica Numeraria en la Academia
+                Mexicana de Pediatría A.C., pertenece al Comité Científico de la
+                Confederación Nacional de Pediatras de México A.C. y al Comité
+                de Enfermedades Metabolicas y Tamiz de la Academia Mexicana de
+                Pediatría A.C.
               </p>
             </div>
           </div>
@@ -43,18 +46,15 @@ function ProfesorA() {
     <>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/1_DraAraceli_Arellano.png?alt=media&token=042a6aa2-ce45-4d18-8bda-0bdf1104989c"
-          alt="comite"
-        />
+        <img src={ImgProfesor} alt="comite" />
         <div className="info">
-          <h2 className="nombre-ponente">Dra. Araceli Arellano </h2>
-          <p className="titulo-ponente">Reumatología Pediátrica</p>
+          <h2 className="nombre-ponente">Dra. Leticia Belmont </h2>
+          <p className="titulo-ponente">Ciencias Médicas</p>
         </div>
 
         <div className="nombre-card">
-          <h2 className="nombre-ponente">Dra. Araceli Arellano </h2>
-          <p className="titulo-ponente">Reumatología Pediátrica</p>
+          <h2 className="nombre-ponente">Dra. Leticia Belmont </h2>
+          <p className="titulo-ponente">Ciencias Médicas</p>
         </div>
       </div>
       <MyVerticallyCenteredModal
