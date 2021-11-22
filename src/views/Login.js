@@ -121,7 +121,7 @@ class Login extends Component {
               <div className="form-grupo">
                 <label>Email</label>
                 <input
-                  placeholder="user@baxter.com"
+                  placeholder="escribe tu email"
                   type="email"
                   id="email"
                   value={this.state.email}

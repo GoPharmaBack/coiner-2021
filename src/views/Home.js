@@ -33,7 +33,7 @@ function home() {
 
               <Link to="/login">
                 {" "}
-                <button className="btn btn-primary"> LOGIN</button>
+                <button className="btn btn-primary"> ENTRAR</button>
               </Link>
             </div>
           </div>
