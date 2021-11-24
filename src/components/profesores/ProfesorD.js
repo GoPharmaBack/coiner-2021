@@ -41,7 +41,7 @@ function ProfesorD() {
     );
   }
   return (
-    <>
+    <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
         <img src={ImgProfesor} alt="comite" />
@@ -59,7 +59,7 @@ function ProfesorD() {
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-    </>
+    </React.Fragment>
   );
 }
 

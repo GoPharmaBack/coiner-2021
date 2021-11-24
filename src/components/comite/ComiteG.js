@@ -42,7 +42,7 @@ function Comite() {
     );
   }
   return (
-    <>
+    <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
         <img
@@ -51,16 +51,14 @@ function Comite() {
         />
         <div className="info">
           <h2 className="nombre-ponente">Dra. Juana Navarrete </h2>
-          <p className="titulo-ponente">Genética Médica  </p>
+          <p className="titulo-ponente">Genética Médica </p>
         </div>
-
-   
       </div>
       <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-    </>
+    </React.Fragment>
   );
 }
 

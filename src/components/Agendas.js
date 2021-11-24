@@ -7,7 +7,7 @@ const agenda3 =
   "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/agenda%2F27_NOV_AGENDA.png?alt=media&token=0d191d1f-4608-498c-b5b1-267a7a68b8fe";
 function Agendas() {
   return (
-    <>
+    <React.Fragment>
       <br />
       <h4>Conoce la agenda del Congreso</h4>
       <div className="contenedor-agendas">
@@ -15,7 +15,7 @@ function Agendas() {
         <img src={agenda2} className="Agenda" alt="coiner-agenda 26" />
         <img src={agenda3} className="Agenda" alt="coiner-agenda 27" />
       </div>
-    </>
+    </React.Fragment>
   );
 }
 

@@ -16,7 +16,7 @@ import Aliados from "../components/Aliados";
 
 function home() {
   return (
-    <>
+    <React.Fragment>
       <section className="App-contenedor">
         <div className="contenedor">
           <div className="contenedor-imagen-izquierda">
@@ -90,7 +90,7 @@ function home() {
         <a href="mailto:comunicacion@coiner.org">comunicacion@coiner.org</a>
       </footer>
       <a href="aviso_de_privacidad">Leer Aviso de Privacidad</a>
-    </>
+    </React.Fragment>
   );
 }
 

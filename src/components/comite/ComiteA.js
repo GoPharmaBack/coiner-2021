@@ -18,7 +18,11 @@ function Comite() {
             <Button className="boton-cerrar" onClick={props.onHide}>
               x
             </Button>
-            <img src={ImgPonente} className="imagen-modal" alt="imagen-comite a" />
+            <img
+              src={ImgPonente}
+              className="imagen-modal"
+              alt="imagen-comite a"
+            />
             <div className="texto">
               <p className="nombre">Dra. Araceli Arellano </p>
               <p className="titulo-ponente">Reumatología Pediátrica</p>
@@ -36,7 +40,7 @@ function Comite() {
     );
   }
   return (
-    <>
+    <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
         <img
@@ -52,15 +56,12 @@ function Comite() {
           <h2 className="nombre-ponente">Dra. Araceli Arellano </h2>
           <p className="titulo-ponente">Reumatología Pediátrica</p>
         </div>
-
-        
       </div>
-     
       <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-    </>
+    </React.Fragment>
   );
 }
 
