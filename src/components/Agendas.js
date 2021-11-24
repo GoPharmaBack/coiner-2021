@@ -9,7 +9,7 @@ function Agendas() {
   return (
     <>
       <br />
-      <h4>Conoce nuesta agenda</h4>
+      <h4>Conoce la agenda del Congreso</h4>
       <div className="contenedor-agendas">
         <img src={agenda1} className="Agenda" alt="coiner-agenda 25" />
         <img src={agenda2} className="Agenda" alt="coiner-agenda 26" />
