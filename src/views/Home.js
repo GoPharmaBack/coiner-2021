@@ -10,7 +10,8 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-//import ListaPonente from "../components/ListaPonente";
+import ListaPonente from "../components/ListaPonente";
+import Agendas from "../components/Agendas";
 
 function home() {
   return (
@@ -58,10 +59,12 @@ function home() {
         <br />
         <ListaComite />
         <br />
-        {/* <h4>Conoce a nuestros </h4>
+        <Agendas />
+        <br />
+        <h4>Conoce a nuestros </h4>
         <h2>PROFESORES</h2>
         <br />
-        <ListaPonente /> */}
+        <ListaPonente />
         <Patrocinadores />
       </section>
       <footer>
@@ -70,7 +73,7 @@ function home() {
           <a href="https://web.facebook.com/CoinerMexico">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="https://instagram.com/coinermx?utm_medium=copy_link">
+          <a href="https://www.instagram.com/coinermx/">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
