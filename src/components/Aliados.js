@@ -6,7 +6,7 @@ const myArray = [
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2FLOGO_SEER_BLACK.png?alt=media&token=e2ccdead-ae00-4170-bffc-30261a483bbe",
+      "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2FSEER_LOGO_AZUL%402x.png?alt=media&token=5bea16bf-9e9b-4bde-9f07-2260debc0579",
   },
 ];
 function Aliados() {
