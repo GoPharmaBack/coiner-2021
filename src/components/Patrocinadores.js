@@ -32,10 +32,7 @@ const myArray = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2Frecordati.png?alt=media&token=d133cc82-2957-4188-a49f-3c1b21554265",
   },
-  {
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2FLOGO_SEER_BLACK.png?alt=media&token=e2ccdead-ae00-4170-bffc-30261a483bbe",
-  },
+
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2F8.png?alt=media&token=9888717c-8c0c-4eb0-a1fb-51d69266ea62",

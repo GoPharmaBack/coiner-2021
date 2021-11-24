@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import ListaPonente from "../components/ListaPonente";
 import Agendas from "../components/Agendas";
+import Aliados from "../components/Aliados";
 
 function home() {
   return (
@@ -66,6 +67,7 @@ function home() {
         <br />
         <ListaPonente />
         <Patrocinadores />
+        <Aliados />
       </section>
       <footer>
         <h4>Síguenos en nuestras redes sociales</h4>
