@@ -1,12 +1,12 @@
 import React from "react";
 import ProfesorA from "./profesores/ProfesorA";
-import ProfesorB from "./profesores/ProfesorB";
+//import ProfesorB from "./profesores/ProfesorB";
 import ProfesorC from "./profesores/ProfesorC";
-import ProfesorD from "./profesores/ProfesorD";
+//import ProfesorD from "./profesores/ProfesorD";
 import ProfesorE from "./profesores/ProfesorE";
-import ProfesorF from "./profesores/ProfesorF";
+//import ProfesorF from "./profesores/ProfesorF";
 import ProfesorG from "./profesores/ProfesorG";
-import ProfesorH from "./profesores/ProfesorH";
+//import ProfesorH from "./profesores/ProfesorH";
 import ProfesorI from "./profesores/ProfesorI";
 import ProfesorJ from "./profesores/ProfesorJ";
 import ProfesorK from "./profesores/ProfesorK";
@@ -17,7 +17,7 @@ import ProfesorO from "./profesores/ProfesorO";
 import ProfesorP from "./profesores/ProfesorP";
 import ProfesorQ from "./profesores/ProfesorQ";
 import ProfesorR from "./profesores/ProfesorR";
-import ProfesorS from "./profesores/ProfesorS";
+//import ProfesorS from "./profesores/ProfesorS";
 import ProfesorT from "./profesores/ProfesorT";
 import ProfesorU from "./profesores/ProfesorU";
 import ProfesorV from "./profesores/ProfesorV";
@@ -27,13 +27,13 @@ function ListaPonente() {
   return (
     <div className="profesores">
       <ProfesorA />
-      <ProfesorB />
+      {/* <ProfesorB /> */}
       <ProfesorC />
-      <ProfesorD />
+      {/* <ProfesorD /> */}
       <ProfesorE />
-      <ProfesorF />
+      {/* <ProfesorF /> */}
       <ProfesorG />
-      <ProfesorH />
+      {/* <ProfesorH /> */}
       <ProfesorI />
       <ProfesorJ />
       <ProfesorK />
@@ -44,7 +44,7 @@ function ListaPonente() {
       <ProfesorP />
       <ProfesorQ />
       <ProfesorR />
-      <ProfesorS />
+      {/* <ProfesorS /> */}
       <ProfesorT />
       <ProfesorU />
       <ProfesorV />

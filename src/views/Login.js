@@ -117,7 +117,7 @@ class Login extends Component {
               className="formulario"
               onSubmit={this.inicioSesion.bind(this)}
             >
-              <h2>Login</h2>
+              <h2>Acceso</h2>
               <div className="form-grupo">
                 <label>Email</label>
                 <input
