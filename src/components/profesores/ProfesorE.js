@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-const ImgPonente =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/4_DrDavid_Cervantes.png?alt=media&token=be530670-3e15-41e0-8ffc-bf2ac38ad60f";
-function Comite() {
+
+const ImgProfesor =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2FDra.%20Cossio.png?alt=media&token=4bee97ac-29ca-48fb-9e62-09a978e27bc8";
+function ProfesorE() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
     return (
@@ -19,19 +20,19 @@ function Comite() {
               x
             </Button>
             <img
-              src={ImgPonente}
+              src={ImgProfesor}
               className="imagen-modal"
               alt="imagen-comite a"
             />
             <div className="texto">
-              <p className="nombre">Dr. David Cervantes</p>
-              <p className="titulo-ponente">Genética Médica </p>
+              <p className="nombre">Dra. Claudia Cossio </p>
+              <p className="titulo-ponente">Pediatría Médica</p>
               <p className="trayectoria">
-                Se formó como médico cirujano en la Universidad La Salle y
-                realizó la especialidad de Genética Médica en el Instituto
-                Nacional de Pediatría. Es profesor titular de genética y
-                genómica en la Universidad La Salle y profesor de genética en la
-                UNAM.
+                Se formó como médico cirujano en la Universidad Autónoma de
+                Puebla, cuenta con la especialidad en pediatría médica por el
+                Consejo Mexicano de Certificación en Pediatría. Actualmente es
+                Coordinadora de la Clínica de enfermedades Lisosomales y
+                profesora tutora de residencias médicas en pediatría en el HNP
               </p>
             </div>
           </div>
@@ -43,18 +44,15 @@ function Comite() {
     <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/4_DrDavid_Cervantes.png?alt=media&token=be530670-3e15-41e0-8ffc-bf2ac38ad60f"
-          alt="comite"
-        />
+        <img src={ImgProfesor} alt="comite" />
         <div className="info">
-          <h2 className="nombre-ponente">Dr. David Cervantes</h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <h2 className="nombre-ponente">Dra. Claudia Cossio </h2>
+          <p className="titulo-ponente">Pediatría Médica </p>
         </div>
 
         <div className="nombre-card">
-          <h2 className="nombre-ponente">Dr. David Cervantes</h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <h2 className="nombre-ponente">Dra. Claudia Cossio </h2>
+          <p className="titulo-ponente">Pediatría Médica </p>
         </div>
       </div>
       <MyVerticallyCenteredModal
@@ -65,4 +63,4 @@ function Comite() {
   );
 }
 
-export default Comite;
+export default ProfesorE;

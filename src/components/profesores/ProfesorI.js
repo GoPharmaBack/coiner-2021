@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-const ImgPonente =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/6_DrRonny_Kershenovich.png?alt=media&token=ce028cb4-afe1-4b6a-87bd-2943a3ec25dc";
-function Comite() {
+
+const ImgProfesor =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2F6.%20Dr.%20Ronny%20Kershenovich.png?alt=media&token=d45f5bd2-437c-4a61-bebf-38e52fc631a3";
+function ProfesorI() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
     return (
@@ -19,13 +20,13 @@ function Comite() {
               x
             </Button>
             <img
-              src={ImgPonente}
+              src={ImgProfesor}
               className="imagen-modal"
               alt="imagen-comite a"
             />
             <div className="texto">
               <p className="nombre">Dr. Ronny Kershenovich </p>
-              <p className="titulo-ponente">Genética Médica </p>
+              <p className="titulo-ponente">Genética médica </p>
               <p className="trayectoria">
                 Médico genetista desde el 2003 con especial interés en
                 dismofología clínica, enfermedades del tejido conectivo y
@@ -52,18 +53,15 @@ function Comite() {
     <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/6_DrRonny_Kershenovich.png?alt=media&token=ce028cb4-afe1-4b6a-87bd-2943a3ec25dc"
-          alt="comite"
-        />
+        <img src={ImgProfesor} alt="comite" />
         <div className="info">
           <h2 className="nombre-ponente">Dr. Ronny Kershenovich </h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <p className="titulo-ponente">Toxicólogo Clínico </p>
         </div>
 
         <div className="nombre-card">
           <h2 className="nombre-ponente">Dr. Ronny Kershenovich </h2>
-          <p className="titulo-ponente">Nefrología Pediátrica </p>
+          <p className="titulo-ponente">Toxicólogo Clínico </p>
         </div>
       </div>
       <MyVerticallyCenteredModal
@@ -74,4 +72,4 @@ function Comite() {
   );
 }
 
-export default Comite;
+export default ProfesorI;

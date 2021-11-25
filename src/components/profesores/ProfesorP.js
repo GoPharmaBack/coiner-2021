@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 
 const ImgProfesor =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2FDra.%20Belmont.png?alt=media&token=e48819c1-0403-4310-bae4-45a469288040";
-function ProfesorA() {
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2FDr.%20Bruno%20Martinez%20fondo%20blanco.png?alt=media&token=6e524507-0942-446d-b041-4c332a3f8520";
+function ProfesorP() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
     return (
@@ -25,16 +25,17 @@ function ProfesorA() {
               alt="imagen-comite a"
             />
             <div className="texto">
-              <p className="nombre">Dra. Leticia Belmont </p>
-              <p className="titulo-ponente">Ciencias Médicas </p>
+              <p className="nombre">Dr. Bruno Martínez </p>
+              <p className="titulo-ponente">Cirugía pediátrica colorrectal </p>
               <p className="trayectoria">
-                Es investigadora en Ciencias Médicas en el Laboratorio de
-                Errores Innatos del Metabolismo y Tamiz del Instituto Nacional
-                de pediatría (INP), es Académica Numeraria en la Academia
-                Mexicana de Pediatría A.C., pertenece al Comité Científico de la
-                Confederación Nacional de Pediatras de México A.C. y al Comité
-                de Enfermedades Metabolicas y Tamiz de la Academia Mexicana de
-                Pediatría A.C.
+                Research Fellow del Cincinnati Children's Colorectal Center y
+                Universidad de Cincinnati, research Fellow en Cirugía Pediátrica
+                Global, King's College, UK Diplomado en Salud Pública, diplomado
+                en Farmacología Clínica y maestrante en Gestión de Servicios de
+                Salud Actualmente es encargado del Servicio de Cirugía
+                Pediátrica, Hospital Pediátrico Moctezuma, Secretaría de Salud
+                de la Ciudad de México y director médico, Fundación Momentum
+                para Enfermedades Colorrectales Congénitas, AC.
               </p>
             </div>
           </div>
@@ -48,13 +49,13 @@ function ProfesorA() {
       <div className="comite-el" onClick={() => setModalShow(true)}>
         <img src={ImgProfesor} alt="comite" />
         <div className="info">
-          <h2 className="nombre-ponente">Dra. Leticia Belmont </h2>
-          <p className="titulo-ponente">Ciencias Médicas</p>
+          <h2 className="nombre-ponente">Dr. Bruno Martínez </h2>
+          <p className="titulo-ponente">Cirugía pediátrica colorrectal </p>
         </div>
 
         <div className="nombre-card">
-          <h2 className="nombre-ponente">Dra. Leticia Belmont </h2>
-          <p className="titulo-ponente">Ciencias Médicas</p>
+          <h2 className="nombre-ponente">Dr. Bruno Martínez </h2>
+          <p className="titulo-ponente">Cirugía pediátrica colorrectal </p>
         </div>
       </div>
       <MyVerticallyCenteredModal
@@ -65,4 +66,4 @@ function ProfesorA() {
   );
 }
 
-export default ProfesorA;
+export default ProfesorP;

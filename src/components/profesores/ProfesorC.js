@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-const ImgPonente =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/2_DraAlejandra_Camacho.png?alt=media&token=24687803-07e1-471a-bc3d-cde31dea3af7";
-function Comite() {
+
+const ImgProfesor =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2F3.%20Dra.%20Alejandra%20Camacho.png?alt=media&token=cf71222b-a10d-493f-aa74-0fbc89058f24";
+function ProfesorC() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
     return (
@@ -19,22 +20,22 @@ function Comite() {
               x
             </Button>
             <img
-              src={ImgPonente}
+              src={ImgProfesor}
               className="imagen-modal"
               alt="imagen-comite a"
             />
             <div className="texto">
               <p className="nombre">Dra. Alejandra Camacho </p>
-              <p className="titulo-ponente">Genética Médica </p>
+              <p className="titulo-ponente">Genética Médica</p>
               <p className="trayectoria">
                 Tiene especialidad en Genética Médica en el Hospital General de
                 México (UNAM), maestría en Ciencias con Especialidad en
-                Farmacología en la Escuela Superior de Medicina (IPN). Fue Jefa
+                Farmacología en la Escuela Superior de Medicina (IPN).  Fue Jefa
                 del Departamento de Genética e investigadora en ciencias médicas
                 en el Insituto Nacional de Neurología y Neurocirugía Manuel
                 Velasco Suárez, es miembro del Sistema Nacional de
                 Investigadores y cuenta con diversas publicaciones nacionales e
-                internacionales. Actualmente es coordinadora del Programa de
+                internacionales.   Actualmente es coordinadora del Programa de
                 Enfermedades Huérfanas Lisosomales, Estandarización de la
                 Prescripción de Medicamentos de Alta Especialidad y de los
                 Laboratorios de Genómica del Instituto de Seguridad y Servicios
@@ -50,10 +51,7 @@ function Comite() {
     <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/2_DraAlejandra_Camacho.png?alt=media&token=24687803-07e1-471a-bc3d-cde31dea3af7"
-          alt="comite"
-        />
+        <img src={ImgProfesor} alt="comite" />
         <div className="info">
           <h2 className="nombre-ponente">Dra. Alejandra Camacho </h2>
           <p className="titulo-ponente">Genética Médica </p>
@@ -72,4 +70,4 @@ function Comite() {
   );
 }
 
-export default Comite;
+export default ProfesorC;

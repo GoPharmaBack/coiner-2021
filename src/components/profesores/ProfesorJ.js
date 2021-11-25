@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-const ImgPonente =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/7_DraJuana_Navarrete.png?alt=media&token=6dddeba7-bb87-4db7-b615-c3130b17ae82";
-function Comite() {
+
+const ImgProfesor =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2F7.%20Dra.%20Juana%20Navarrete.png?alt=media&token=b0a47809-a2f4-4198-9659-46b5ddf84436";
+function ProfesorJ() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
     return (
@@ -19,13 +20,13 @@ function Comite() {
               x
             </Button>
             <img
-              src={ImgPonente}
+              src={ImgProfesor}
               className="imagen-modal"
               alt="imagen-comite a"
             />
             <div className="texto">
               <p className="nombre">Dra. Juana Navarrete </p>
-              <p className="titulo-ponente">Genética Médica </p>
+              <p className="titulo-ponente">Genética médica </p>
               <p className="trayectoria">
                 Médico Genetista egresada de la UNAM. Actualmente Jefa del
                 Servicio de Genética del Hospital Central Sur de Alta
@@ -45,13 +46,15 @@ function Comite() {
     <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/7_DraJuana_Navarrete.png?alt=media&token=6dddeba7-bb87-4db7-b615-c3130b17ae82"
-          alt="comite"
-        />
+        <img src={ImgProfesor} alt="comite" />
         <div className="info">
           <h2 className="nombre-ponente">Dra. Juana Navarrete </h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <p className="titulo-ponente">Genética médica </p>
+        </div>
+
+        <div className="nombre-card">
+          <h2 className="nombre-ponente">Dra. Juana Navarrete </h2>
+          <p className="titulo-ponente">Genética médica </p>
         </div>
       </div>
       <MyVerticallyCenteredModal
@@ -62,4 +65,4 @@ function Comite() {
   );
 }
 
-export default Comite;
+export default ProfesorJ;

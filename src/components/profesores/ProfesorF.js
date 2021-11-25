@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-const ImgPonente =
-  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/4_DrDavid_Cervantes.png?alt=media&token=be530670-3e15-41e0-8ffc-bf2ac38ad60f";
-function Comite() {
+
+const ImgProfesor =
+  "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Profesores%2F1DraBelmont.jpeg?alt=media&token=9172fb71-8bde-4fad-91dc-59ca70d39393";
+function ProfesorF() {
   const [modalShow, setModalShow] = useState(false);
   function MyVerticallyCenteredModal(props) {
     return (
@@ -19,19 +20,19 @@ function Comite() {
               x
             </Button>
             <img
-              src={ImgPonente}
+              src={ImgProfesor}
               className="imagen-modal"
               alt="imagen-comite a"
             />
             <div className="texto">
-              <p className="nombre">Dr. David Cervantes</p>
-              <p className="titulo-ponente">Genética Médica </p>
+              <p className="nombre">Dr. José Antonio de la Peña Celaya </p>
+              <p className="titulo-ponente">Hematología </p>
               <p className="trayectoria">
-                Se formó como médico cirujano en la Universidad La Salle y
-                realizó la especialidad de Genética Médica en el Instituto
-                Nacional de Pediatría. Es profesor titular de genética y
-                genómica en la Universidad La Salle y profesor de genética en la
-                UNAM.
+                Hematólogo egresado del CMN 20 de noviembre ISSSTE, actualmente
+                médico adscrito al servicio de hematología del CMN 20 de
+                noviembre ISSSTE. Cuenta con más de 10 publicaciones nacionales
+                e internacionales y cuenta con amplia experiencia en el manejo
+                de la HPN.
               </p>
             </div>
           </div>
@@ -43,18 +44,19 @@ function Comite() {
     <React.Fragment>
       {" "}
       <div className="comite-el" onClick={() => setModalShow(true)}>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/4_DrDavid_Cervantes.png?alt=media&token=be530670-3e15-41e0-8ffc-bf2ac38ad60f"
-          alt="comite"
-        />
+        <img src={ImgProfesor} alt="comite" />
         <div className="info">
-          <h2 className="nombre-ponente">Dr. David Cervantes</h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <h2 className="nombre-ponente">
+            Dr. José Antonio de la Peña Celaya{" "}
+          </h2>
+          <p className="titulo-ponente">Hematología </p>
         </div>
 
         <div className="nombre-card">
-          <h2 className="nombre-ponente">Dr. David Cervantes</h2>
-          <p className="titulo-ponente">Genética Médica </p>
+          <h2 className="nombre-ponente">
+            Dr. José Antonio de la Peña Celaya{" "}
+          </h2>
+          <p className="titulo-ponente">Hematología </p>
         </div>
       </div>
       <MyVerticallyCenteredModal
@@ -65,4 +67,4 @@ function Comite() {
   );
 }
 
-export default Comite;
+export default ProfesorF;

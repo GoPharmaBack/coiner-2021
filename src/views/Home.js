@@ -10,11 +10,13 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-//import ListaPonente from "../components/ListaPonente";
+import ListaPonente from "../components/ListaPonente";
+import Agendas from "../components/Agendas";
+import Aliados from "../components/Aliados";
 
 function home() {
   return (
-    <>
+    <React.Fragment>
       <section className="App-contenedor">
         <div className="contenedor">
           <div className="contenedor-imagen-izquierda">
@@ -58,11 +60,14 @@ function home() {
         <br />
         <ListaComite />
         <br />
-        {/* <h4>Conoce a nuestros </h4>
+        <Agendas />
+        <br />
+        <h4>Conoce a nuestros </h4>
         <h2>PROFESORES</h2>
         <br />
-        <ListaPonente /> */}
+        <ListaPonente />
         <Patrocinadores />
+        <Aliados />
       </section>
       <footer>
         <h4>Síguenos en nuestras redes sociales</h4>
@@ -85,7 +90,7 @@ function home() {
         <a href="mailto:comunicacion@coiner.org">comunicacion@coiner.org</a>
       </footer>
       <a href="aviso_de_privacidad">Leer Aviso de Privacidad</a>
-    </>
+    </React.Fragment>
   );
 }
 
