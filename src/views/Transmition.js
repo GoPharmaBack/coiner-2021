@@ -24,10 +24,11 @@ function Transmition() {
         <div className="video">
           <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
             <iframe
-              src="https://player.vimeo.com/video/648435689?h=6e97d5380c&badge=0&autopause=0&player_id=0&app_id=58479"
+              src="https://vimeo.com/event/1577072/embed"
               frameBorder={0}
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
+              title="transmisio"
               style={{
                 position: "absolute",
                 top: 0,
@@ -35,7 +36,6 @@ function Transmition() {
                 width: "100%",
                 height: "100%",
               }}
-              title="Loop_Logos_v2"
             />
 
             {/* <iframe
@@ -53,6 +53,7 @@ function Transmition() {
               }}
             /> */}
           </div>
+          <br />
         </div>
 
         {/* chat */}
