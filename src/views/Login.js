@@ -117,7 +117,7 @@ class Login extends Component {
               className="formulario"
               onSubmit={this.inicioSesion.bind(this)}
             >
-              <h2>Acceso 25 noviembre 18:00 CDMX</h2>
+              <h2>Acceso 26 noviembre 18:00 CDMX</h2>
               <div className="form-grupo">
                 <label>Email</label>
                 <input
