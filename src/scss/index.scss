@@ -708,6 +708,10 @@ a {
   position: relative;
   height: auto;
   width: 1080px;
+
+  @include phone {
+    width: 100% !important;
+  }
 }
 
 .btn-transmision {
