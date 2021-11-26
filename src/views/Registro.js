@@ -10,7 +10,7 @@ class Registro extends Component {
 
     this.state = {
       email: "",
-      password: "",
+      password: "coiner2021",
       firstname: "",
       lastname: "",
       username: "",
@@ -20,25 +20,24 @@ class Registro extends Component {
     };
   }
 
-  inicioSesion(event) {
-    event.preventDefault();
-
-    this.setState({
-      status: "Enviando...",
-    });
+  inicioSesion() {
+    const data = {
+      ...this.state,
+      username: `${this.state.firstname[0]}${this.state.lastname}`,
+    };
     axios({
       method: "post",
       url: "https://coiner-2021.herokuapp.com/api/auth/signup",
       headers: {
         "Content-Type": "application/json",
       },
-      data: this.state,
+      data,
     })
       .then((response) => {
         const cookies = new Cookies();
         console.log("token", response);
         localStorage.setItem("token", response, JSON.stringify(response.data));
-        if (response.data.message === "Auth succesful") {
+        if (response.data.message === "newToken") {
           //si rebotamos dentro del mismo sitio va este
           console.log("redireccionado");
           window.location.href = "./evento";
@@ -79,8 +78,9 @@ class Registro extends Component {
           localStorage.setItem("userDetails", JSON.stringify(userDetails));
           localStorage.setItem("userSession", JSON.stringify(userSession));
           localStorage.setItem("userRoles", JSON.stringify(userRoles));
-        } else if (response.data.code === 401) {
-          window.location.href = "./ups";
+          alert("Gracias por registrarte");
+        } else if (response.data.message === "newToken") {
+          window.location.href = "./evento";
         }
       })
       .catch(function (error) {
@@ -89,18 +89,7 @@ class Registro extends Component {
         window.location.href = "./ups";
       });
   }
-  handleChange(event) {
-    const field = event.target.id;
-    if (field === "email") {
-      this.setState({
-        email: event.target.value,
-      });
-    } else if (field === "firstname") {
-      this.setState({
-        firstname: event.target.value,
-      });
-    }
-  }
+
   // componentDidMount() {
   //   document.getElementById("navScr").style.display = "none";
   // }
@@ -132,13 +121,13 @@ class Registro extends Component {
               />
               <div id="mc_embed_signup">
                 <form
+                  onSubmit={(e) => this.inicioSesion()}
                   action="https://coiner.us1.list-manage.com/subscribe/post?u=37892f6a3c3f15b6ba401af59&id=744ea1621c"
                   method="post"
                   id="mc-embedded-subscribe-form"
                   name="mc-embedded-subscribe-form"
                   className="validate"
                   target="_blank"
-                  noValidate
                 >
                   <div id="mc_embed_signup_scroll">
                     <div className="contenedor-titulo-form">
@@ -160,8 +149,12 @@ class Registro extends Component {
                       <input
                         type="text"
                         name="FNAME"
+                        required
                         className="required"
                         id="mce-FNAME"
+                        onChange={(e) =>
+                          this.setState({ firstname: e.target.value })
+                        }
                       />
                     </div>
                     <div className="mc-field-group">
@@ -171,8 +164,12 @@ class Registro extends Component {
                       <input
                         type="text"
                         name="LNAME"
+                        required
                         className="required"
                         id="mce-LNAME"
+                        onChange={(e) =>
+                          this.setState({ lastname: e.target.value })
+                        }
                       />
                     </div>
                     <div className="mc-field-group">
@@ -182,8 +179,12 @@ class Registro extends Component {
                       <input
                         type="email"
                         name="EMAIL"
+                        required
                         className="required email"
                         id="mce-EMAIL"
+                        onChange={(e) =>
+                          this.setState({ email: e.target.value })
+                        }
                       />
                     </div>
                     <div className="mc-field-group">
@@ -192,6 +193,7 @@ class Registro extends Component {
                       </label>
                       <select
                         name="ESTATE"
+                        required
                         className="required"
                         id="mce-ESTATE"
                       >
@@ -538,6 +540,7 @@ class Registro extends Component {
                       <input
                         type="text"
                         name="ZONE"
+                        required
                         className="required"
                         id="mce-ZONE"
                       />
@@ -649,6 +652,7 @@ class Registro extends Component {
                       <input
                         type="text"
                         name="ESPEC"
+                        required
                         className="required"
                         id="mce-ESPEC"
                       />
@@ -660,6 +664,7 @@ class Registro extends Component {
                       <input
                         type="text"
                         name="INST"
+                        required
                         className="required"
                         id="mce-INST"
                       />
