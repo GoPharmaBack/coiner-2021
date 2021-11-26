@@ -14,7 +14,7 @@ const myArray = [
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2F4.png?alt=media&token=6ded963e-f5ef-41b6-a1a7-7bd064ee54f7",
+      "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2FLogo%20CHIESI%20RD%20nuevo.png?alt=media&token=cc5dc1f0-5af1-4c18-9ab8-06dcaafa05ce",
   },
   {
     image:
