@@ -10,12 +10,11 @@ class Login extends Component {
 
     this.state = {
       email: "",
-      password: "",
-      message: "",
       firstname: "",
-      status: "Entrar",
-      code: "",
-      roles: "",
+      lastname: "",
+      username: "",
+      email: "",
+      password: "coiner2021",
     };
   }
 
@@ -94,9 +93,9 @@ class Login extends Component {
       this.setState({
         email: event.target.value,
       });
-    } else if (field === "password") {
+    } else if (field === "firstname") {
       this.setState({
-        password: event.target.value,
+        firstname: event.target.value,
       });
     }
   }
@@ -133,10 +132,10 @@ class Login extends Component {
                 <label> Password</label>
                 <input
                   placeholder=""
-                  type="password"
-                  id="password"
-                  name="currrent-password"
-                  value={this.state.password}
+                  type="firstname"
+                  id="firstname"
+                  name="currrent-firstname"
+                  value={this.state.firstname}
                   onChange={this.handleChange.bind(this)}
                   required
                 />
