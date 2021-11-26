@@ -422,9 +422,14 @@ footer {
   }
 }
 
+.registro {
+  width: 100%;
+  max-width: 700px;
+}
+
 .contenedor-form {
-  margin-top: 3rem;
-  min-height: 90vh;
+  margin-top: 1rem;
+  min-height: 80vh;
   flex-flow: column;
   box-sizing: border-box;
   padding: 1rem;
@@ -731,4 +736,8 @@ a {
     height: auto;
     max-width: 900px;
   }
+}
+
+.registro-m {
+  flex-flow: column;
 }
