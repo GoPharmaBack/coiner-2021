@@ -712,6 +712,10 @@ a {
   @include phone {
     width: 100% !important;
   }
+
+  @include tableth {
+    width: 100% !important;
+  }
 }
 
 .btn-transmision {
