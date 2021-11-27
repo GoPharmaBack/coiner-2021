@@ -108,16 +108,17 @@ class Login extends Component {
     return (
       <React.Fragment>
         <section className="login">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="coiner-2021" />
           <br />
 
           <br />
           <div className="contenedor-login">
+            <br />
             <form
               className="formulario"
               onSubmit={this.inicioSesion.bind(this)}
             >
-              <h2>Acceso 26 noviembre 18:00 CDMX</h2>
+              <h2>Acceso 27 noviembre 9:00 CDMX</h2>
               <div className="form-grupo">
                 <label>Email</label>
                 <input

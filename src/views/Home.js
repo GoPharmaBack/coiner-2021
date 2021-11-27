@@ -24,8 +24,9 @@ function home() {
           </div>
 
           <div className="contenedor-texto">
-            <h1>Reserva la Fecha</h1>
-            <h2>25, 26 y 27 de noviembre</h2>
+            <h1>Último día de congreso</h1>
+            <h2>27 de noviembre</h2>
+
             <br />
             <div className="contenedor-botones">
               <Link to="/registro">
