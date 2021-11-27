@@ -15,6 +15,7 @@ const myArray = [
   {
     image:
       "https://firebasestorage.googleapis.com/v0/b/comite-coiner.appspot.com/o/Patrocinadores%2FSEER_LOGO_AZUL%402x.png?alt=media&token=5bea16bf-9e9b-4bde-9f07-2260debc0579",
+    link: "https://seerlatam.org/",
   },
 ];
 function Aliados() {
@@ -26,7 +27,9 @@ function Aliados() {
       <div className="patrocinadores-Contenedor">
         {myArray.map((item, index) => (
           <div key={index} className="Aliados-img">
-            <img src={item.image} className="AliadosImg" alt="aliados" />
+            <a href={item.link}>
+              <img src={item.image} className="AliadosImg" alt="aliados" />
+            </a>
           </div>
         ))}
       </div>
