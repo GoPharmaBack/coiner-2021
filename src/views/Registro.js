@@ -37,7 +37,7 @@ class Registro extends Component {
         const cookies = new Cookies();
         console.log("token", response);
         localStorage.setItem("token", response, JSON.stringify(response.data));
-        if (response.data.message === "newToken") {
+        if (response.data.message === "Auth succesful") {
           //si rebotamos dentro del mismo sitio va este
           console.log("redireccionado");
           window.location.href = "./evento";
@@ -79,8 +79,8 @@ class Registro extends Component {
           localStorage.setItem("userSession", JSON.stringify(userSession));
           localStorage.setItem("userRoles", JSON.stringify(userRoles));
           alert("Gracias por registrarte");
-        } else if (response.data.message === "newToken") {
-          window.location.href = "./evento";
+        } else if (response.data.code === 401) {
+          window.location.href = "./ups";
         }
       })
       .catch(function (error) {
