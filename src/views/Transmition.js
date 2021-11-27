@@ -61,7 +61,7 @@ function Transmition() {
           <iframe
             title="chat-coiner"
             src="https://minnit.chat/coiner?embed&&nickname="
-            style={{ border: "none", width: "90%", height: 450 }}
+            style={{ border: "none", width: "90%", height: 550 }}
             allowTransparency="true"
           />
         </div>
