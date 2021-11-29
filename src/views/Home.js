@@ -24,19 +24,19 @@ function home() {
           </div>
 
           <div className="contenedor-texto">
-            <h1>Último día de congreso</h1>
-            <h2>27 de noviembre</h2>
+            <h1>
+              ¡Muchas gracias! <br />
+              Nos vemos en 2022
+            </h1>
+            <h2>
+              COINER<sup>®</sup> 2021
+            </h2>
 
             <br />
             <div className="contenedor-botones">
               <Link to="/registro">
                 {" "}
                 <button className="btn btn-primary"> REGISTRO</button>
-              </Link>
-
-              <Link to="/login">
-                {" "}
-                <button className="btn btn-primary"> ENTRAR</button>
               </Link>
             </div>
           </div>
