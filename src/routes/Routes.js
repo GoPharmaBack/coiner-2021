@@ -29,9 +29,9 @@ function Routes() {
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/registro" component={Registro} />
-        <Route exact path="/gracias" component={Gracias} />
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/" component={Registro} />
+        <Route exact path="/" component={Gracias} />
+        <Route exact path="/" component={Login} />
         <ProtectedRoutes
           path="/evento"
           component={Transmition}
